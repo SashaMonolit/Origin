@@ -1,0 +1,51 @@
+1.	Таблица Employees. Получить список с информацией обо всех сотрудниках
+Решение
+SELECT * FROM EMPLOYEES;
+2 Таблица Employees. Получить список всех сотрудников с именем 'David'
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE FIRST_NAME=’David’;
+3	Таблица Employees. Получить список всех сотрудников с job_id равным 'IT_PROG'
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE JOB_ID=’IT_PROG’;
+4.	Таблица Employees. Получить список всех сотрудников из 50го отдела (department_id) с зарплатой(salary), большей 4000
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE DEPARTMENT_ID=50 AND SALARY>4000;
+
+
+
+5.	Таблица Employees. Получить список всех сотрудников из 20го и из 30го отдела (department_id)
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE DEPARTMENT_ID IN (20, 30);
+6.
+Таблица Employees. Получить список всех сотрудников, у которых последняя буква в имени равна 'a'
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE FIRST_NAME LIKE ‘%a’;
+7.Таблица Employees. Получить список всех сотрудников из 50го и из 80го отдела (department_id) у которых есть бонус (значение в колонке commission_pct не пустое)
+Решение
+
+SELECT * 
+FROM EMPLOYEES 
+WHERE DEPARTMENT_ID IN (50, 80) AND 
+COMMISSION_PCT IS NOT NULL;
+8.
+Таблица Employees. Получить список всех сотрудников, у которых в имени содержатся минимум 2 буквы 'n'
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE FIRST_NAME LIKE ‘%n%n%’;
+9.
+Таблица Employees. Получить список всех сотрудников, у которых зарплата находится в промежутке от 8000 до 9000 (включительно)
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE SALARY BETWEEN 8000 AND 9000;
