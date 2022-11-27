@@ -1,0 +1,45 @@
+1.	Таблица Employees. Получить список с информацией обо всех сотрудниках
+Решение
+SELECT * FROM EMPLOYEES;
+2 Таблица Employees. Получить список всех сотрудников с именем 'David'
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE FIRST_NAME=’David’;
+3	Таблица Employees. Получить список всех сотрудников с job_id равным 'IT_PROG'
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE JOB_ID=’IT_PROG’;
+4.	Таблица Employees. Получить список всех сотрудников из 50го отдела (department_id) с зарплатой(salary), большей 4000
+Решение
+SELECT * 
+FROM EMPLOYEES 
+WHERE DEPARTMENT_ID=50 AND SALARY>4000;
+
+
+
+5.	Таблица Employees. Получить список всех сотрудников из 20го и из 30го отдела (department_id)
+Решение
+SELECT * 
+FROM EMPLOYEES 
+ml {margin:0; background: #696969;} 
+
+#head {
+height:100px;
+ width:100%;
+background: #696969;
+}
+
+.h1 {padding:0 40%;  font-size:48pt;} 
+
+.h2  {font-size:20pt;} 
+
+#hello { float:left;
+width:80%;
+height: 72px;
+background: #2F4F4F;
+margin: 24px 0 24px 20px}
+
+#logo {float: right; 
+width:117px;
