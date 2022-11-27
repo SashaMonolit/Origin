@@ -1,0 +1,80 @@
+html {margin:0; background: #696969;} 
+
+#head {
+height:100px;
+ width:100%;
+background: #696969;
+}
+
+.h1 {padding:0 40%;  font-size:48pt;} 
+
+.h2  {font-size:20pt;} 
+
+#hello { float:left;
+width:80%;
+height: 72px;
+background: #2F4F4F;
+margin: 24px 0 24px 20px}
+
+#logo {float: right; 
+width:117px;
+height: 72px;
+margin: 0px 100px 10px 0}
+
+#topmenu {width:100%;
+background: #2E8B57; height: 80px; min-width:900px}
+
+#container {width:100%;
+min-width:900px; min-height: 500px}
+
+#leftmenu {width:150px;
+float:left; background: lightgray; min-height:500px;}
+
+#empty {width:0px;float: right}
+
+#content {background: #008080;
+min-height: 500px; 
+padding:50px; 
+margin-left: 150px}
+
+.top {margin-left: 160px;
+font-size:15pt;}
+
+.left {
+height: 60px; width:100%; 
+text-align:center;
+line-height:50px;
+vertical-align:middle}
+
+#bottom {clear:both; 
+width: 100%; height: 100px; background: #2E8B57;}
+
+.block {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+.rr{float: right;
+height: 40px;border-radius: 5px;font-size: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
